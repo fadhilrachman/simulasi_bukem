@@ -33,8 +33,8 @@
         "DB_PASSWORD": "U37ugMQeWX",
         "MIDTRANS_SERVER_KEY": "SB-Mid-server-lsZOhr116-vSzAtP7EIKOXwJ",
         "MIDTRANS_CLIENT_KEY": "SB-Mid-server-lsZOhr116-vSzAtP7EIKOXwJ",
-        "MIDTRANS_IS_PRODUCTION": false,
-        "MIDTRANS_IS_SANITIZED": true,
-        "MIDTRANS_IS_3DS": true
+        "MIDTRANS_IS_PRODUCTION": "false",
+        "MIDTRANS_IS_SANITIZED": "true",
+        "MIDTRANS_IS_3DS": "true"
     }
 }
