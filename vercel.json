@@ -6,7 +6,7 @@
     },
     "routes": [
         { "src": "/build/(.*)", "dest": "/public/build/$1" },
-        { "src": "/template/(.*)", "dest": "/public/template/$1" },
+        { "src": "/template/css/(.*)", "dest": "/public/template/css/$1" },
         { "src": "/template_admin/(.*)", "dest": "/public/template_admin/$1" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
