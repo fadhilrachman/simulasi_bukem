@@ -9,14 +9,14 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="{{ secure_asset('/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('/css/bootstrap-datepicker.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('/css/jquery.fancybox.min.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('/css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('template/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('template/css/bootstrap-datepicker.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('template/css/jquery.fancybox.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('template/css/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('template/fonts/flaticon/font/flaticon.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('template/fonts/icomoon/style.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('/css/style.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('/css/aos.csss') }}">
+    <link rel="stylesheet" href="{{ secure_asset('template/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('template/css/aos.csss') }}">
 
     {{-- <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
@@ -55,7 +55,7 @@
             <div class="col-3 ">
               <div class="site-logo">
                 <a href="index.html" class="font-weight-bold">
-                  <img src="{{ secure_asset("template/images/logo.png") }}" alt="Image" class="img-fluid">
+                  <img src="{{ asset("template/images/logo.png") }}" alt="Image" class="img-fluid">
                 </a>
               </div>
             </div>
@@ -189,23 +189,23 @@
     </footer>
 
     </div>
-    <link rel="stylesheet" href="{{ secure_asset('template/css/aos.csss') }}">
+    <link rel="stylesheet" href="{{ asset('template/css/aos.csss') }}">
 
-    <script src="{{ secure_asset('template/js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ secure_asset('template/js/jquery-migrate-3.0.0.js') }}"></script>
-    <script src="{{ secure_asset('template/js/popper.min.js') }}"></script>
-    <script src="{{ secure_asset('template/js/bootstrap.min.js') }}"></script>
-    <script src="{{ secure_asset('template/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ secure_asset('template/js/jquery.sticky.js') }}"></script>
-    <script src="{{ secure_asset('template/js/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ secure_asset('template/js/jquery.animateNumber.min.js') }}"></script>
-    <script src="{{ secure_asset('template/js/jquery.fancybox.min.js') }}"></script>
-    <script src="{{ secure_asset('template/js/jquery.stellar.min.js') }}"></script>
-    <script src="{{ secure_asset('template/js/jquery.easing.1.3.js') }}"></script>
-    <script src="{{ secure_asset('template/js/bootstrap-datepicker.min.js') }}"></script>
-    <script src="{{ secure_asset('template/js/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ secure_asset('template/js/main.js') }}"></script>
-    <script src="{{ secure_asset('template/js/aos.js') }}"></script>
+    <script src="{{ asset('template/js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ asset('template/js/jquery-migrate-3.0.0.js') }}"></script>
+    <script src="{{ asset('template/js/popper.min.js') }}"></script>
+    <script src="{{ asset('template/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('template/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('template/js/jquery.sticky.js') }}"></script>
+    <script src="{{ asset('template/js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('template/js/jquery.animateNumber.min.js') }}"></script>
+    <script src="{{ asset('template/js/jquery.fancybox.min.js') }}"></script>
+    <script src="{{ asset('template/js/jquery.stellar.min.js') }}"></script>
+    <script src="{{ asset('template/js/jquery.easing.1.3.js') }}"></script>
+    <script src="{{ asset('template/js/bootstrap-datepicker.min.js') }}"></script>
+    <script src="{{ asset('template/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('template/js/main.js') }}"></script>
+    <script src="{{ asset('template/js/aos.js') }}"></script>
 
 
     {{-- SNAP MIDTRANS --}}
