@@ -9,14 +9,14 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="{{ secure_asset('template/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('template/css/bootstrap-datepicker.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('template/css/jquery.fancybox.min.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('template/css/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('template/fonts/flaticon/font/flaticon.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('template/fonts/icomoon/style.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('template/css/style.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('template/css/aos.csss') }}">
+    <link rel="stylesheet" href="{{ asset('template/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('template/css/bootstrap-datepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('template/css/jquery.fancybox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('template/css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('template/fonts/flaticon/font/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('template/fonts/icomoon/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('template/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('template/css/aos.csss') }}">
 
     {{-- <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
