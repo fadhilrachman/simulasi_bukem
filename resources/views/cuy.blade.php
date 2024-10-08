@@ -20,7 +20,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-5" data-aos="fade-right">
-            <h1 class="mb-3 text-white">Wisata Buken</h1>
+            <h1 class="mb-3 text-white">Wisata Buken Cuy</h1>
             <p>Nikmati Petualangan di Taman Satwa dan Segarkan Diri di Kolam Renang</p>
             <p class="d-flex align-items-center">
               {{-- <a href="https://vimeo.com/191947042" data-fancybox class="play-btn-39282 mr-3"><span class="icon-play"></span></a>  --}}
@@ -143,7 +143,7 @@
 
   <div class="container my-5" id="gallery">
     <div class="heading-39101 mb-5 text-center">
-      <span class="subtitle-39191">Galeri Wisata</span>
+      <span class="subtitle-39191">Galeri Cuy</span>
       <h3>Lihat Aktivitas dan Fasilitas yang Kami Tawarkan</h3>
     </div>
     <div class="row mx-auto">
@@ -154,7 +154,7 @@
         <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8gTMQ-iHWlxYInGzaPakAuDBxrdzewJJ7g&s" alt="Image 2">
       </div>
       <div class="col-lg-3 col-md-4 col-12 gallery-item">
-        <img  src="https://dolanbanyumas.banyumaskab.go.id/assets/gambar_objek/hutan-pinus-limpakuwus.jpg" alt="Image 3">
+        <img  src="{{ asset('template/images/about_1.jpeg') }}" alt="Image 3">
       </div>
       <div class="col-lg-3 col-md-4 col-12 gallery-item">
         <img  src="https://dolanbanyumas.banyumaskab.go.id/assets/gambar_objek/pagubugan-melung.jpeg" alt="Image 4">
